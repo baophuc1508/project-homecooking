@@ -1,0 +1,4 @@
+#Mon Nov 26 01:10:19 ICT 2018
+base.0=E\:\\Download\\homecooking\\homecooking\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/piclogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40000000"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="96dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="72dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HomeCooking"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:backgroundTint="#FFFFFF"
+                android:id="@+id/txtTaiKhoan"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawableRight="@drawable/ic_email_white_24dp"
+                android:paddingRight="16dp"
+                android:hint="Nhập Email"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:backgroundTint="#FFFFFF"
+                android:id="@+id/txtMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawableRight="@drawable/ic_lock_outline_white_24dp"
+                android:paddingRight="16dp"
+                android:hint="Nhập Mật Khẩu"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/cbSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lưu Mật Khẩu"
+                android:textColor="#ffffff"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/txtQuenMatKhau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Quên Mật Khẩu?"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_dangnhap"
+            android:text="ĐĂNG NHẬP"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnDangKi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_dangki"
+            android:text="ĐĂNG KÍ"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

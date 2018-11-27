@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThanhToan"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorPrimary"
+            >
+
+            <TextView
+                android:id="@+id/txtTitleThanhToan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Thanh Toán"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainpic">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:layout_marginBottom="16dp">
+
+            <ListView
+                android:id="@+id/lvThanhToan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="8"></ListView>
+
+            <TextView
+                android:id="@+id/txtTongTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Tổng Tiền"
+                android:layout_weight="0.5"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btnThanhToanTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="16dp"
+                android:background="@drawable/button_dangnhap"
+                android:text="thanh toán"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

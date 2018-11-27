@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/piclogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40000000"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HomeCooking"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            />
+        <ImageView
+            android:id="@+id/imageAvatar"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/avatar"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="(nhấp vào ảnh để chọn ảnh đại diện)"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:backgroundTint="#FFFFFF"
+                android:id="@+id/txtTaiKhoan"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawableRight="@drawable/ic_email_white_24dp"
+                android:paddingRight="16dp"
+                android:hint="Nhập Email"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:backgroundTint="#FFFFFF"
+                android:id="@+id/txtMatKhau2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawableRight="@drawable/ic_lock_outline_white_24dp"
+                android:paddingRight="16dp"
+                android:hint="Nhập Mật Khẩu"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:backgroundTint="#FFFFFF"
+                android:id="@+id/txtMatKhauAgain"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawableRight="@drawable/ic_lock_outline_white_24dp"
+                android:paddingRight="16dp"
+                android:hint="Nhập Lại Mật Khẩu"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:backgroundTint="#FFFFFF"
+                android:id="@+id/txtAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawableRight="@drawable/ic_lock_outline_white_24dp"
+                android:paddingRight="16dp"
+                android:hint="Code Admin"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName"
+                android:textSize="16sp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnDangKiTaiKhoan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_dangnhap"
+            android:text="ĐĂNG KÍ"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

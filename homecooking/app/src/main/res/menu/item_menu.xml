@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/menuThemBan"
+    android:title="Thêm Bàn"
+    android:icon="@drawable/baseline_add_black_48dp"
+    android:checked="true"
+
+    />
+<item
+    android:id="@+id/menuXoaBan"
+    android:title="Xóa Bàn"
+    android:icon="@drawable/baseline_remove_black_48dp"
+    android:checked="true"
+    />
+<item
+    android:id="@+id/menuAdmin"
+    android:title="Quyền Admin"
+    android:icon="@drawable/baseline_person_black_48dp"
+    android:checked="true"
+    />
+
+</menu>

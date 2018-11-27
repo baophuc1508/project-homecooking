@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/txtDialogTenMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="aaaaaaaa"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageDialogMonAn"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/imageAddMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_add_black_48dp"
+            android:layout_weight="1"
+            android:elevation="4dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/txtDatMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:text="0"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:id="@+id/imageSubMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_remove_black_48dp"
+            android:layout_weight="1"
+            android:elevation="4dp"
+            android:layout_gravity="center"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></FrameLayout>
+
+        <Button
+            android:id="@+id/btnDatMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:background="@drawable/button_dangnhap"
+            android:text="ok"
+            android:elevation="4dp"
+           />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

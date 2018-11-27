@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "306804923054",
+    "firebase_url": "https://datahomecooking.firebaseio.com",
+    "project_id": "datahomecooking",
+    "storage_bucket": "datahomecooking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306804923054:android:a50b2e9ca7a84a1f",
+        "android_client_info": {
+          "package_name": "com.example.paul.homecooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306804923054-o7b1raa5pgbi1nva027fpo1tee7c105j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paul.homecooking",
+            "certificate_hash": "026901947adf5fbc0e36ee959f381f06e2935458"
+          }
+        },
+        {
+          "client_id": "306804923054-rjmt5cnaqd7jjmk9nt8tj0dso8sinek1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw4XpkL6NbiHXF_11ZRpofzlCHxn5wzP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306804923054-rjmt5cnaqd7jjmk9nt8tj0dso8sinek1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

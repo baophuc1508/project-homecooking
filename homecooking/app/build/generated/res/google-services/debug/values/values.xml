@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">306804923054-rjmt5cnaqd7jjmk9nt8tj0dso8sinek1.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://datahomecooking.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">306804923054</string>
+    <string name="google_api_key" translatable="false">AIzaSyCw4XpkL6NbiHXF_11ZRpofzlCHxn5wzP4</string>
+    <string name="google_app_id" translatable="false">1:306804923054:android:a50b2e9ca7a84a1f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCw4XpkL6NbiHXF_11ZRpofzlCHxn5wzP4</string>
+    <string name="google_storage_bucket" translatable="false">datahomecooking.appspot.com</string>
+    <string name="project_id" translatable="false">datahomecooking</string>
+</resources>
